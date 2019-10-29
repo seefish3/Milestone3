@@ -1,0 +1,65 @@
+body{
+  background-color: #6f7dac;
+  color: #d0e4e2;
+}
+
+header{
+  background-color: #5762d5;
+  color: #d0e4e2;;
+  display: block;
+  padding: .5em;
+}
+
+
+
+nav {
+    column-count: 1;
+    float: none;
+    width: auto;
+    padding: 1em;
+    font-weight: bold;
+    display: block;
+    background-color: #565366;
+    color: #d0e4e2;
+}
+
+nav ul{
+  list-style-type: none;
+  margin: 1px;
+  padding-left: 0px;
+}
+
+nav a:link{color:#d0e4e2; }
+nav a:visited{color: #889997; }
+
+nav li{
+  display: inline-block;
+}
+
+nav a{
+  text-decoration: none;
+}
+
+footer {
+  font-size: .70em;
+  font-style: italic;
+  text-align: left;
+  padding: 1em;
+  background-color: #565366;
+  color: #d0e4e2;
+  display: block;
+}
+
+#moutans {
+  height: 200px;
+  background-image: url(moutains.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#server{
+  height: 150px;
+  background-image: url(network.jpg);
+  float: right;
+  
+}
